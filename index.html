@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validate-Form.</title>
+</head>
+<body>
+<h1 contenteditable="true" spellcheck="true">Login-Form.</h1>
+    <form   class="simpleForm" onsubmit="return validate()">
+        <input type="text" id="userName" placeholder="user name">
+        <p class="error"></p>
+        <input type="tel" id="phoneNum" placeholder="phone number">
+        <p class="error"></p>
+        <input type="password" id="password" placeholder="password">
+        <p class="error"></p>
+        <input type="password" id="confirmPassword" placeholder="confirm password">
+        <p class="error"></p>
+        <button type="submit">Register.</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

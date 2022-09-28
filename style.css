@@ -1,0 +1,25 @@
+.simpleForm{
+    width: 70%;
+    margin: 20px auto;
+    padding: 6px 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.simpleForm input{
+    width: 100%;
+    margin: 4px 0;
+    padding: 2px 4px;
+}
+.simpleForm button{
+    margin: 8px 0px;
+}
+.wrong-input{
+    border: 1px solid red;
+    animation: shake 0.5s;
+    animation-iteration-count: 2;
+}
+@keyframes shake {
+    10%, 90%{
+        transform: translate3d(-1px,0,0);
+    }
+}
